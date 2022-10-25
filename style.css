@@ -1,0 +1,82 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.container {
+    min-width: 800px;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #fff;
+
+}
+
+.main {
+    width: calc(100% - 40px);
+    height: calc( 100% - 40px );
+    margin: 10px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    background-color: rgb(249, 246, 246);
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+}
+
+button {
+    height: 36px;
+    padding: 4px 6px;
+    width: 100px;
+    margin-left: 12px;
+}
+
+.box {
+    padding: 10px;
+    background-color: aliceblue;
+    border: 0.5px solid rgb(209, 203, 188);
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+.box .form {
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.box-para {
+    border: 0.1px solid slategray;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.box-actions {
+    margin-top: 10px;
+}
+
+.box-actions .like-button,
+.box-actions .reply-button {
+    height: 30px;
+    padding: 4px 6px;
+    width: 80px;
+}
+
+.box-actions .like-button {
+    margin-right: 10px;
+}
